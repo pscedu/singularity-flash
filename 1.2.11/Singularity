@@ -1,0 +1,13 @@
+Bootstrap: docker
+From: quay.io/biocontainers/flash:1.2.11--hed695b0_5
+
+%labels
+    AUTHOR icaoberg
+    EMAIL icaoberg@psc.edu
+    WEBSITE https://gitlab.psc.edu/icaoberg/singularity-flash
+    VERSION 1.2.11
+
+%post
+   rm /etc/resolv.conf
+
+####################################################################################

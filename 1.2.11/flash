@@ -4,9 +4,9 @@ if [ ! $(command -v singularity) ]; then
 	module load singularity
 fi
 
-VERSION=2.23.2
-PACKAGE=picard
-TOOL=$PACKAGE
+VERSION=1.2.11
+PACKAGE=flash
+TOOL=flash
 DIRECTORY=/opt/packages/$PACKAGE/$VERSION
 
 PERSISTENT_FILE_STORAGE=/ocean

@@ -11,13 +11,9 @@ whatis("Version: 1.2.11")
 whatis("Category: Biological Sciences")
 whatis("URL: https://www.psc.edu/resources/software")
 whatis("Description: FLASH (Fast Length Adjustment of SHort reads) is a very fast and accurate software tool to merge paired-end reads from next-generation sequencing experiments.")
+whatis("Keywords: singularity bioinformatics")
 
 help([[
-flash 1.2.11
-------------
-
-Description
------------
 FLASH (Fast Length Adjustment of SHort reads) is a very fast and accurate software tool to merge paired-end reads from next-generation sequencing experiments.
 
 To load the module, type
@@ -28,17 +24,9 @@ To unload the module, type
 
 > module unload flash/1.2.11
 
-Documentation
--------------
-http://ccb.jhu.edu/software/FLASH/
-
 For help, type
 
 > flash --help
-
-Repository
-----------
-http://ccb.jhu.edu/software/FLASH/
 
 Tools included in this module are
 

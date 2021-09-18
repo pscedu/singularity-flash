@@ -7,7 +7,3 @@ From: quay.io/biocontainers/flash:1.2.11--hed695b0_5
     WEBSITE https://gitlab.psc.edu/icaoberg/singularity-flash
     VERSION 1.2.11
 
-%post
-   rm /etc/resolv.conf
-
-####################################################################################

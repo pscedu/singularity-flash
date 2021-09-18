@@ -2,8 +2,10 @@ Bootstrap: docker
 From: quay.io/biocontainers/flash:1.2.11--hed695b0_5
 
 %labels
-    AUTHOR icaoberg
+    MAINTAINER icaoberg
     EMAIL icaoberg@psc.edu
-    WEBSITE https://gitlab.psc.edu/icaoberg/singularity-flash
+    SUPPORT help@psc.edu
+    REPOSITORY http://gitub.com/pscedu/singularity-flash
+    COPYRIGHT Copyright © 2021 Pittsburgh Supercomputing Center. All Rights Reserved.    
     VERSION 1.2.11
 
